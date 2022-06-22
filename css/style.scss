@@ -1,0 +1,56 @@
+/* Подключение файлов scss */
+/* Переменные */
+@import "variable.scss";
+/* Стили */
+@import "fonts";
+
+/* ------------------------ */
+/* Technical */
+
+html,body {
+	font-size: 8px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--c-main-bg);
+}
+
+.page-wrapper {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	line-height: var(--l-h-base);
+	font-size: var(--f-s-base);
+	color: var(--c-base-text);
+}
+
+.container {	
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/* ------------------------ */
+/* Header */
+
+@import "header";
+
+/* ------------------------ */
+ /* Nav */
+
+@import "navigation";
+
+/* ------------------------ */
+ /* Main */
+
+@import "main";
+
+/* ------------------------ */
+ /* Адаптив Main */
+
+@import "media";
+
+/* ------------------------ */
+ /* Footer */
+
+@import "footer";
+
+/* ------------------------ */
