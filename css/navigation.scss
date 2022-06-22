@@ -1,0 +1,35 @@
+.nav {
+	position: fixed;
+	top: 14rem;
+	z-index: 99;
+  background-color: var(--c-menu-btn-bg);
+  max-width: inherit;
+  width: 100%;
+  
+}
+
+.menu {
+  overflow-x: auto;
+
+  &__container {
+		padding: 1rem 4rem 1rem 4rem;	 
+	}
+
+  &__list {
+		display: flex;
+    gap: 2rem;
+	}
+
+	&__item { 
+	}
+
+  &__item--last {
+    padding-right: 2rem;
+  }
+
+	&__button {
+		background-color: var(--c-menu-btn-bg);
+		color: var(--c-btn);
+    padding: 1rem 2rem;
+	}
+}

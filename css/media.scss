@@ -1,0 +1,25 @@
+@media (min-width:400px){
+  .card{
+    max-width: 55rem;
+    &__image {
+      max-height: 60rem;
+    }
+  }
+}
+
+@media (min-width:730px){
+  .card{
+    max-width: 80rem;
+    width: 48%;
+  }
+}
+
+@media (min-width:1000px){
+  .card{
+    max-width: 55rem;
+    width: 32%;
+    &__image {
+      max-height: 60rem;
+    }
+  }
+}
